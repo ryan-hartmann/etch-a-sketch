@@ -11,9 +11,6 @@ function addRow() {
         for (j = 0; num > j; j++) {
             const col = document.createElement("div");
             col.setAttribute('id', 'col');
-            col.style.border = "solid";
-            col.style.borderColor = "black";
-            col.style.borderWidth = "thin";
             col.style.flex = '1';
             col.onmouseover = () => {col.style.backgroundColor = "black";};
             row.appendChild(col);
